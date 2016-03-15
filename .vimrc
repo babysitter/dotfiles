@@ -13,6 +13,7 @@ set shiftwidth=4  " Number of auto-indent spaces
 set smartindent   " Enable smart-indent
 set smarttab      " Enable smart-tabs
 set softtabstop=4 " Number of spaces per Tab
+set expandtab
 
 "" Advanced
 set ruler         " Show row and column ruler information
@@ -23,5 +24,10 @@ set backspace=indent,eol,start  " Backspace behaviour
 "set list lcs=tab:\|\ 
 set list lcs=tab:▸\ ,eol:¬
 
-"Invisible character colors 
+let g:syntastic_enable_signs=1
+
+"Solarized Colorscheme
+syntax enable
+set background=dark
+colorscheme solarized
 
