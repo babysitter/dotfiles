@@ -17,6 +17,9 @@ URxvt*scrollBar:       false
 URxvt*saveLines:       5000
 URxvt*termName:        rxvt-unicode
 
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+
 !URxvt.perl-ext-common: default,matcher
 !URxvt.urlLauncher: firefox
 !URxvt.matcher.button: 1
