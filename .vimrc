@@ -24,10 +24,19 @@ set backspace=indent,eol,start  " Backspace behaviour
 "set list lcs=tab:\|\ 
 set list lcs=tab:▸\ ,eol:¬
 
-let g:syntastic_enable_signs=1
-
 "Solarized Colorscheme
 syntax enable
 set background=dark
 colorscheme solarized
+
+"easy switch between panes
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+"use CTRL-S for saving
+noremap <C-S> :w<CR>
+vnoremap <C-S> <C-C>:w<CR>
+inoremap <C-S> <C-O>:w<CR>
 
